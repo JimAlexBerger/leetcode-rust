@@ -4,6 +4,8 @@ extern crate serde_derive;
 extern crate serde_json;
 
 mod fetcher;
+mod problem;
+mod solution;
 
 use crate::fetcher::{CodeDefinition, Problem};
 use regex::Regex;
